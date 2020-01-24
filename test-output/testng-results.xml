@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All File Suite" duration-ms="29107" started-at="2020-01-23T09:37:56 IST" finished-at="2020-01-23T09:38:25 IST">
+    <groups>
+    </groups>
+    <test name="All Test" duration-ms="29107" started-at="2020-01-23T09:37:56 IST" finished-at="2020-01-23T09:38:25 IST">
+      <class name="secondTest.SecondTest">
+        <test-method status="PASS" signature="validatefirstTest()[pri:0, instance:secondTest.SecondTest@5a4041cc]" name="validatefirstTest" duration-ms="13903" started-at="2020-01-23T09:37:56 IST" finished-at="2020-01-23T09:38:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefirstTest -->
+      </class> <!-- secondTest.SecondTest -->
+      <class name="firstTest.FirstTest">
+        <test-method status="PASS" signature="validatefirstTest()[pri:0, instance:firstTest.FirstTest@15b3e5b]" name="validatefirstTest" duration-ms="15106" started-at="2020-01-23T09:38:10 IST" finished-at="2020-01-23T09:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatefirstTest -->
+      </class> <!-- firstTest.FirstTest -->
+    </test> <!-- All Test -->
+  </suite> <!-- All File Suite -->
+</testng-results>

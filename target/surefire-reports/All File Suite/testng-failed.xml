@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All File Suite]">
+  <test verbose="0" name="All Test(failed)">
+    <classes>
+      <class name="secondTest.SecondTest">
+        <methods>
+          <include name="validatefirstTest"/>
+        </methods>
+      </class> <!-- secondTest.SecondTest -->
+      <class name="firstTest.FirstTest">
+        <methods>
+          <include name="validatefirstTest"/>
+        </methods>
+      </class> <!-- firstTest.FirstTest -->
+    </classes>
+  </test> <!-- All Test(failed) -->
+</suite> <!-- Failed suite [All File Suite] -->

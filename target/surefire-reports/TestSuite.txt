@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.114 sec <<< FAILURE! - in TestSuite
+validatefirstTest(secondTest.SecondTest)  Time elapsed: 12.735 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at secondTest.SecondTest.validatefirstTest(SecondTest.java:27)
+
+validatefirstTest(firstTest.FirstTest)  Time elapsed: 15.506 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at firstTest.FirstTest.validatefirstTest(FirstTest.java:29)
+
