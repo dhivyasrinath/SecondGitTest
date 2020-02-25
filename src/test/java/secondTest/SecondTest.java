@@ -24,6 +24,6 @@ public class SecondTest {
 		data.sendKeys(Keys.ENTER);
 		File src = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("C:\\SeleniumWorkSpace\\GithubTest\\screenshot\\capture1.jpg"));
-		int i=1/0;
+		//int i=1/0;
 	}
 }

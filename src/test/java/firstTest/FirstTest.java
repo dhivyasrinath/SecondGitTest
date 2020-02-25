@@ -26,6 +26,6 @@ public void validatefirstTest() throws IOException {
 	data.sendKeys(Keys.ENTER);
 	File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(src, new File("C:\\SeleniumWorkSpace\\GithubTest\\screenshot\\capture.jpg"));
-	int i=1/0;
+	//int i=1/0;
 }
 }
